@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+    --header-height:3rem
+
+    --first-color:#3e0e12;
+    --first-color-dark:#2F0A0D;
+    --text-color:#524758;
+    --first-color-light:#7B6F71;
+    --first-color-lighten:#FBF9F9;
+}
+.bd-container{
+    max-width: 1024px;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+}
+.bd-grid{
+    display: flex;
+    gap: 1.5rem;
+}
+.oneheader{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: black;
+}
+.nav{
+    height:var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    color:var(--first-color-lighten);
+    transition: all, 0.3s ease;
+}
+.nav-link:hover{
+    color: yellow; 
+    background: var(--first-color-dark);
+}
+.nav-logo, .nav-toggle{
+    color:white;
+}
+.nav-toggle{
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
