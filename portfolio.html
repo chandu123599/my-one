@@ -2,28 +2,211 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="style.css">
     <title>my portfolio </title>
 </head>
 <body>
-    <header class="oneheader" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav-logo">chandu sasi</a>
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#home" class="nav-link ">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
-                    <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
+    <!--header-->
+    <header>
+        <a href="#" class="logo">Portfo<span>LIO</span></a>
+        <div class="toggle">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#eduction">Eduction</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--header-->
 
-            <div class="nav-toggle"id="nav-toggle">
-                <i class="bx bx-menu"></i>
+    <!--banner-->
+    <section class="banner" id="home">
+        <div class="textbx">
+            <h2>Hello, I'm<br><span>Chandu Sasidhar</span></h2>
+            <h3>I'm a Front Web Developer</h3>
+            <a href="#" class="btn">About me</a>
+        </div>
+    </section>
+    
+    <!--banner-->
+
+    <!--about-->
+    <section class="about"  id="about">
+        <div class="headi">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Front Web Developer</h3>
+                <p class="bike">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                istinctio esse consectetur aspernatur corrupti ex quisquam'libero accusantium temporibus neque. 
+                 Facilis excepturi reprehenderit blanditiis iure illum veritatis, 
+                aspernatur quis saepe.<br><br>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Provident aspernatur ab at fugit 
+                aliquid nemo delectus et, reprehenderit repellendus porro
+                nesciunt ad quibusdam soluta ducimus assumenda non repudiandae labore! Qui.</p>
             </div>
+            <div class=" w50">
+                <img src="6.jpg" class="img" width="250" height="350">
+            </div>
+        </div>
+    </section>
+    <!--about-->
+
+    <!--services-->
+    <section class="services" id="service">
+        <div class="white">
+            <h2>Our Services</h2>
+        </div>
+        <div class="content">
+            <div class="serviceBx">
+                <img src="icon1.png">
+                <h2>Web Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                   Dicta porro, repudiandae perferendis totam iure eaque fuga.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="icon2.png">
+                <h2>Web Development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                   Dicta porro, repudiandae perferendis totam iure eaque fuga.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="icon3.png">
+                <h2>Android app</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                   Dicta porro, repudiandae perferendis totam iure eaque fuga.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="icon4.png">
+                <h2>photograph</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                   Dicta porro, repudiandae perferendis totam iure eaque fuga.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="icon5.png">
+                <h2>content Writing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                   Dicta porro, repudiandae perferendis totam iure eaque fuga.</p>
+            </div>
+            <div class="serviceBx">
+                <img src="icon6.png">
+                <h2>Video Editing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                   Dicta porro, repudiandae perferendis totam iure eaque fuga.</p>
+            </div>
+        </div>
+    </section><br>
+    <!--services-->
+
+    <!--work-->
+    <section class="work" id="work">
+        <div class="head">
+            <h2>Our latest work</h2>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="product1.jpg">
+            </div>
+            <div class="workBx">
+                <img src="product2.jpg">
+            </div>
+            <div class="workBx">
+                <img src="product3.jpg">
+            </div>
+            <div class="workBx">
+                <img src="product4.jpg">
+            </div>
+        </div>
+            <div class="heading">
+                <a href="#" class="btn">View More</a>
+            </div>
+    </section>
+    <!--work-->
+    <!--eduction-->
+    <section class="Eduction" id="eduction">
+        <div class="heading">
+            <h2> Eduction</h2>
+        </div>
+        <div class="content">
+            <div class="EductionBx">
+                <div class="bars">
+                    <div class="infor">
+                        <span>10TH Class</span><br>
+                        <span>70%</span>
+                        <p class="lo">SRYSP HIGH SCHOOL 
+                         CHALLAPALLI KRISHNA</p>
+                    </div>
+                    <div class="line 10TH Class"></div>
+                    <div class="infor">
+                        <span>Dipolma(EEE)</span><BR>
+                        <span class="hi">75%</span>
+                        <p class="lo">DIVI SEEMA POLYTECHNIC COLLEGE AVANIGADDA</p>
+                    </div>
+                    <div class="line Dipolma"></div>
+                    <div class="infor">
+                        <span>B.tech(EEE)</span><BR>
+                        <span>70%</span>
+                        <p class="lo">DMS SVH HINDU COLLEGE OF ENGINEERING MACHILIPATNAM</p>
+                    </div>
+                    <div class="line btech"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--eduction-->
+
+    <!--contact-->
+     <section class="contact" id="contact">
+         <div class="white">
+             <h2>contact Us</h2>
+         </div>
+         <div class="content">
+             <div class="contactInfo">
+                 <h3>Contact Info</h3>
+                 <div class="contactInfoBx">
+                     <div class="box">
+                        <i class="fa fa-map-marker"></i>
+                         <div class="icon"></div>
+                          <div class="text">
+                           <h3>Address</h3>
+                            <p>3-45 main road,<br> challapalli,velivolu<br>521126</p>
+                       </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"></div>
+                        <i class="fa fa-phone"></i>
+                         <div class="text">
+                          <h3>phone</h3>
+                          <p>7997200545</p>
+                      </div>
+                   </div>
+                    <div class="box">
+                       <div class="icon"></div>
+                       <i class="fa fa-envelope-o"></i>
+                        <div class="text">
+                          <h3>Email</h3>
+                         <p>tempali@gmailcom</p>
+                      </div>
+                   </div>
+                 </div>
+             </div>
+         </div>
+         </div>
+     </section>
+     <div class="copyright">
+         <p>copyright @ 2020 online .all right reserved</p>
+     </div>
+     <!--contact-->
+     
+
 </body>
 </html>
